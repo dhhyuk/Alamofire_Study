@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143865D1B1F4FB36F0CCD951 /* Pods_Alamofire_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D270223157CBD6FDF71152 /* Pods_Alamofire_Study.framework */; };
+		4B9D241D1E78D58A0082F577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D241C1E78D58A0082F577 /* AppDelegate.swift */; };
+		4B9D241F1E78D58A0082F577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D241E1E78D58A0082F577 /* ViewController.swift */; };
+		4B9D24221E78D58A0082F577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24201E78D58A0082F577 /* Main.storyboard */; };
+		4B9D24241E78D58A0082F577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24231E78D58A0082F577 /* Assets.xcassets */; };
+		4B9D24271E78D58A0082F577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24251E78D58A0082F577 /* LaunchScreen.storyboard */; };
+		4B9D24321E78D58A0082F577 /* Alamofire_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24311E78D58A0082F577 /* Alamofire_StudyTests.swift */; };
+		4B9D243D1E78D7A20082F577 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D243C1E78D7A20082F577 /* Alamofire.framework */; };
+		4B9D243F1E78D9B00082F577 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */; };
+		4B9D24421E7914D50082F577 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D24401E7914D50082F577 /* Moya.framework */; };
+		4B9D24431E7914D50082F577 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D24411E7914D50082F577 /* Result.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9D242E1E78D58A0082F577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9D24111E78D58A0082F577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9D24181E78D58A0082F577;
+			remoteInfo = "Alamofire Study";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D270223157CBD6FDF71152 /* Pods_Alamofire_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9D24191E78D58A0082F577 /* Alamofire Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9D241C1E78D58A0082F577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B9D241E1E78D58A0082F577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B9D24211E78D58A0082F577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B9D24231E78D58A0082F577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B9D24261E78D58A0082F577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B9D24281E78D58A0082F577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9D242D1E78D58A0082F577 /* Alamofire StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamofire StudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9D24311E78D58A0082F577 /* Alamofire_StudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire_StudyTests.swift; sourceTree = "<group>"; };
+		4B9D24331E78D58A0082F577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9D243C1E78D7A20082F577 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		4B9D24401E7914D50082F577 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/Moya/Moya.framework"; sourceTree = "<group>"; };
+		4B9D24411E7914D50082F577 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/Result/Result.framework"; sourceTree = "<group>"; };
+		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9D24161E78D58A0082F577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D24421E7914D50082F577 /* Moya.framework in Frameworks */,
+				4B9D24431E7914D50082F577 /* Result.framework in Frameworks */,
+				4B9D243F1E78D9B00082F577 /* SwiftyJSON.framework in Frameworks */,
+				4B9D243D1E78D7A20082F577 /* Alamofire.framework in Frameworks */,
+				143865D1B1F4FB36F0CCD951 /* Pods_Alamofire_Study.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9D242A1E78D58A0082F577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9D24101E78D58A0082F577 = {
+			isa = PBXGroup;
+			children = (
+				4B9D241B1E78D58A0082F577 /* Alamofire Study */,
+				4B9D24301E78D58A0082F577 /* Alamofire StudyTests */,
+				4B9D241A1E78D58A0082F577 /* Products */,
+				A861C6BF45FE5C4AD5A3FDBE /* Pods */,
+				54D2BC54270833F318300CBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9D241A1E78D58A0082F577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D24191E78D58A0082F577 /* Alamofire Study.app */,
+				4B9D242D1E78D58A0082F577 /* Alamofire StudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9D241B1E78D58A0082F577 /* Alamofire Study */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D241C1E78D58A0082F577 /* AppDelegate.swift */,
+				4B9D241E1E78D58A0082F577 /* ViewController.swift */,
+				4B9D24201E78D58A0082F577 /* Main.storyboard */,
+				4B9D24231E78D58A0082F577 /* Assets.xcassets */,
+				4B9D24251E78D58A0082F577 /* LaunchScreen.storyboard */,
+				4B9D24281E78D58A0082F577 /* Info.plist */,
+			);
+			path = "Alamofire Study";
+			sourceTree = "<group>";
+		};
+		4B9D24301E78D58A0082F577 /* Alamofire StudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D24311E78D58A0082F577 /* Alamofire_StudyTests.swift */,
+				4B9D24331E78D58A0082F577 /* Info.plist */,
+			);
+			path = "Alamofire StudyTests";
+			sourceTree = "<group>";
+		};
+		54D2BC54270833F318300CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D24401E7914D50082F577 /* Moya.framework */,
+				4B9D24411E7914D50082F577 /* Result.framework */,
+				4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */,
+				4B9D243C1E78D7A20082F577 /* Alamofire.framework */,
+				17D270223157CBD6FDF71152 /* Pods_Alamofire_Study.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A861C6BF45FE5C4AD5A3FDBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */,
+				E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9D24181E78D58A0082F577 /* Alamofire Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9D24361E78D58A0082F577 /* Build configuration list for PBXNativeTarget "Alamofire Study" */;
+			buildPhases = (
+				CCB6DA92B3E4CFE51BCC856B /* [CP] Check Pods Manifest.lock */,
+				4B9D24151E78D58A0082F577 /* Sources */,
+				4B9D24161E78D58A0082F577 /* Frameworks */,
+				4B9D24171E78D58A0082F577 /* Resources */,
+				448B710DC4734D0046F37202 /* [CP] Embed Pods Frameworks */,
+				4D0B077B205F4252AB4A3FE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire Study";
+			productName = "Alamofire Study";
+			productReference = 4B9D24191E78D58A0082F577 /* Alamofire Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B9D242C1E78D58A0082F577 /* Alamofire StudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9D24391E78D58A0082F577 /* Build configuration list for PBXNativeTarget "Alamofire StudyTests" */;
+			buildPhases = (
+				4B9D24291E78D58A0082F577 /* Sources */,
+				4B9D242A1E78D58A0082F577 /* Frameworks */,
+				4B9D242B1E78D58A0082F577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9D242F1E78D58A0082F577 /* PBXTargetDependency */,
+			);
+			name = "Alamofire StudyTests";
+			productName = "Alamofire StudyTests";
+			productReference = 4B9D242D1E78D58A0082F577 /* Alamofire StudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9D24111E78D58A0082F577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KongTech;
+				TargetAttributes = {
+					4B9D24181E78D58A0082F577 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8WAE5CSM5;
+						ProvisioningStyle = Automatic;
+					};
+					4B9D242C1E78D58A0082F577 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T9S323XZK2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B9D24181E78D58A0082F577;
+					};
+				};
+			};
+			buildConfigurationList = 4B9D24141E78D58A0082F577 /* Build configuration list for PBXProject "Alamofire Study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9D24101E78D58A0082F577;
+			productRefGroup = 4B9D241A1E78D58A0082F577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9D24181E78D58A0082F577 /* Alamofire Study */,
+				4B9D242C1E78D58A0082F577 /* Alamofire StudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B9D24171E78D58A0082F577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D24271E78D58A0082F577 /* LaunchScreen.storyboard in Resources */,
+				4B9D24241E78D58A0082F577 /* Assets.xcassets in Resources */,
+				4B9D24221E78D58A0082F577 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9D242B1E78D58A0082F577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		448B710DC4734D0046F37202 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0B077B205F4252AB4A3FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCB6DA92B3E4CFE51BCC856B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9D24151E78D58A0082F577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D241F1E78D58A0082F577 /* ViewController.swift in Sources */,
+				4B9D241D1E78D58A0082F577 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9D24291E78D58A0082F577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9D24321E78D58A0082F577 /* Alamofire_StudyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9D242F1E78D58A0082F577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9D24181E78D58A0082F577 /* Alamofire Study */;
+			targetProxy = 4B9D242E1E78D58A0082F577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B9D24201E78D58A0082F577 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9D24211E78D58A0082F577 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B9D24251E78D58A0082F577 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9D24261E78D58A0082F577 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B9D24341E78D58A0082F577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B9D24351E78D58A0082F577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9D24371E78D58A0082F577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8WAE5CSM5;
+				INFOPLIST_FILE = "Alamofire Study/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongky.study.Alamofire-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B9D24381E78D58A0082F577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8WAE5CSM5;
+				INFOPLIST_FILE = "Alamofire Study/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongky.study.Alamofire-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B9D243A1E78D58A0082F577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T9S323XZK2;
+				INFOPLIST_FILE = "Alamofire StudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongtech.study.Alamofire-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alamofire Study.app/Alamofire Study";
+			};
+			name = Debug;
+		};
+		4B9D243B1E78D58A0082F577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T9S323XZK2;
+				INFOPLIST_FILE = "Alamofire StudyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongtech.study.Alamofire-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alamofire Study.app/Alamofire Study";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9D24141E78D58A0082F577 /* Build configuration list for PBXProject "Alamofire Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9D24341E78D58A0082F577 /* Debug */,
+				4B9D24351E78D58A0082F577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9D24361E78D58A0082F577 /* Build configuration list for PBXNativeTarget "Alamofire Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9D24371E78D58A0082F577 /* Debug */,
+				4B9D24381E78D58A0082F577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9D24391E78D58A0082F577 /* Build configuration list for PBXNativeTarget "Alamofire StudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9D243A1E78D58A0082F577 /* Debug */,
+				4B9D243B1E78D58A0082F577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9D24111E78D58A0082F577 /* Project object */;
+}
