@@ -5,7 +5,5 @@ use_frameworks!
 target ‘Alamofire Study’ do
 
 pod 'Alamofire', '~> 4.4'
-pod 'SwiftyJSON'
-pod 'Moya'
  
 end

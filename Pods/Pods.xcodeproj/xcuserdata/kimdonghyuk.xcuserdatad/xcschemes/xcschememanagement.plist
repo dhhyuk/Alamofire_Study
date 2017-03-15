@@ -9,22 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Moya.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Alamofire Study.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Result.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,22 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1215771836B84E9F9899950098D2FF80</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>52ACA0236F086E72B74F0A090A743D41</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6959178DC3652BA566768D9D893FC17E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>780170FB91E65134370E46BAD07DCACC</key>
+		<key>73C48B22AC37B53803FA9945C9F13EF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,15 +9,12 @@
 /* Begin PBXBuildFile section */
 		143865D1B1F4FB36F0CCD951 /* Pods_Alamofire_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D270223157CBD6FDF71152 /* Pods_Alamofire_Study.framework */; };
 		4B9D241D1E78D58A0082F577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D241C1E78D58A0082F577 /* AppDelegate.swift */; };
-		4B9D241F1E78D58A0082F577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D241E1E78D58A0082F577 /* ViewController.swift */; };
 		4B9D24221E78D58A0082F577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24201E78D58A0082F577 /* Main.storyboard */; };
 		4B9D24241E78D58A0082F577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24231E78D58A0082F577 /* Assets.xcassets */; };
 		4B9D24271E78D58A0082F577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D24251E78D58A0082F577 /* LaunchScreen.storyboard */; };
 		4B9D24321E78D58A0082F577 /* Alamofire_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24311E78D58A0082F577 /* Alamofire_StudyTests.swift */; };
 		4B9D243D1E78D7A20082F577 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D243C1E78D7A20082F577 /* Alamofire.framework */; };
-		4B9D243F1E78D9B00082F577 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */; };
-		4B9D24421E7914D50082F577 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D24401E7914D50082F577 /* Moya.framework */; };
-		4B9D24431E7914D50082F577 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D24411E7914D50082F577 /* Result.framework */; };
+		4B9D24461E791BBA0082F577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24451E791BBA0082F577 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +31,6 @@
 		17D270223157CBD6FDF71152 /* Pods_Alamofire_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9D24191E78D58A0082F577 /* Alamofire Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9D241C1E78D58A0082F577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B9D241E1E78D58A0082F577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B9D24211E78D58A0082F577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B9D24231E78D58A0082F577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9D24261E78D58A0082F577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +42,7 @@
 		4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		4B9D24401E7914D50082F577 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/Moya/Moya.framework"; sourceTree = "<group>"; };
 		4B9D24411E7914D50082F577 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Alamofire_Study-gspjuraajuylqachxneccfiuprmf/Build/Products/Debug-iphoneos/Result/Result.framework"; sourceTree = "<group>"; };
+		4B9D24451E791BBA0082F577 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,9 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9D24421E7914D50082F577 /* Moya.framework in Frameworks */,
-				4B9D24431E7914D50082F577 /* Result.framework in Frameworks */,
-				4B9D243F1E78D9B00082F577 /* SwiftyJSON.framework in Frameworks */,
 				4B9D243D1E78D7A20082F577 /* Alamofire.framework in Frameworks */,
 				143865D1B1F4FB36F0CCD951 /* Pods_Alamofire_Study.framework in Frameworks */,
 			);
@@ -96,11 +90,11 @@
 		4B9D241B1E78D58A0082F577 /* Alamofire Study */ = {
 			isa = PBXGroup;
 			children = (
-				4B9D241C1E78D58A0082F577 /* AppDelegate.swift */,
-				4B9D241E1E78D58A0082F577 /* ViewController.swift */,
-				4B9D24201E78D58A0082F577 /* Main.storyboard */,
+				4B9D24441E791BBA0082F577 /* Basic */,
 				4B9D24231E78D58A0082F577 /* Assets.xcassets */,
+				4B9D24201E78D58A0082F577 /* Main.storyboard */,
 				4B9D24251E78D58A0082F577 /* LaunchScreen.storyboard */,
+				4B9D241C1E78D58A0082F577 /* AppDelegate.swift */,
 				4B9D24281E78D58A0082F577 /* Info.plist */,
 			);
 			path = "Alamofire Study";
@@ -113,6 +107,14 @@
 				4B9D24331E78D58A0082F577 /* Info.plist */,
 			);
 			path = "Alamofire StudyTests";
+			sourceTree = "<group>";
+		};
+		4B9D24441E791BBA0082F577 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D24451E791BBA0082F577 /* ViewController.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		54D2BC54270833F318300CBC /* Frameworks */ = {
@@ -292,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9D241F1E78D58A0082F577 /* ViewController.swift in Sources */,
+				4B9D24461E791BBA0082F577 /* ViewController.swift in Sources */,
 				4B9D241D1E78D58A0082F577 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
