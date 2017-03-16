@@ -22,6 +22,9 @@
 		4B9D24521E7A41740082F577 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24511E7A41740082F577 /* Authentication.swift */; };
 		4B9D24541E7A428A0082F577 /* FileDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24531E7A428A0082F577 /* FileDownload.swift */; };
 		4B9D24561E7A432F0082F577 /* FileUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24551E7A432F0082F577 /* FileUpload.swift */; };
+		4B9D24581E7A4FEB0082F577 /* StatisticalMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */; };
+		4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */; };
+		4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		4B9D24511E7A41740082F577 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		4B9D24531E7A428A0082F577 /* FileDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownload.swift; sourceTree = "<group>"; };
 		4B9D24551E7A432F0082F577 /* FileUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUpload.swift; sourceTree = "<group>"; };
+		4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticalMetrics.swift; sourceTree = "<group>"; };
+		4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cURLCommandOutput.swift; sourceTree = "<group>"; };
+		4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +140,9 @@
 				4B9D24511E7A41740082F577 /* Authentication.swift */,
 				4B9D24531E7A428A0082F577 /* FileDownload.swift */,
 				4B9D24551E7A432F0082F577 /* FileUpload.swift */,
+				4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */,
+				4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */,
+				4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -316,6 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9D24561E7A432F0082F577 /* FileUpload.swift in Sources */,
+				4B9D24581E7A4FEB0082F577 /* StatisticalMetrics.swift in Sources */,
+				4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */,
+				4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */,
 				4B9D24521E7A41740082F577 /* Authentication.swift in Sources */,
 				4B9D24501E7A411E0082F577 /* HTTPHeader.swift in Sources */,
 				4B9D244C1E7A40C70082F577 /* HTTPMethod.swift in Sources */,

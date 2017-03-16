@@ -18,7 +18,7 @@ class FileUpload {
      * Alamofire.upload로 data를 전송
      */
     public func uploadingData() {
-        let imageData = UIImagePNGRepresentation(#imageLiteral(resourceName: <#T##String#>))!
+        let imageData = UIImagePNGRepresentation(UIImage(named: "ab")!)!
         
         Alamofire.upload(imageData, to: "https://httpbin.org/post").responseJSON { response in
             print(response)
