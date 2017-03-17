@@ -25,6 +25,7 @@
 		4B9D24581E7A4FEB0082F577 /* StatisticalMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */; };
 		4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */; };
 		4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */; };
+		4B9D368F1E7B7F4600DDBBDB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D368E1E7B7F4600DDBBDB /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticalMetrics.swift; sourceTree = "<group>"; };
 		4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cURLCommandOutput.swift; sourceTree = "<group>"; };
 		4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4B9D368E1E7B7F4600DDBBDB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */,
 				4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */,
 				4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */,
+				4B9D368E1E7B7F4600DDBBDB /* Request.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9D24561E7A432F0082F577 /* FileUpload.swift in Sources */,
+				4B9D368F1E7B7F4600DDBBDB /* Request.swift in Sources */,
 				4B9D24581E7A4FEB0082F577 /* StatisticalMetrics.swift in Sources */,
 				4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */,
 				4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */,

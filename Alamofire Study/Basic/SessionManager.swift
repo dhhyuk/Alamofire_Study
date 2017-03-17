@@ -18,4 +18,35 @@ class SessionManager {
         let sessionManager = Alamofire.SessionManager.default
         sessionManager.request("https://httpbin.org/get")
     }
+    
+    
+    public func creatingASessionManagerWithDefaultConfiguration() {
+        let configuration = URLSessionConfiguration.default
+        let sessionManager = Alamofire.SessionManager(configuration: configuration)
+        sessionManager.request("https://httpbin.org/get")
+    }
+    
+    public func creatingASessionManagerWithBackgroundConfiguration() {
+        let configuration = URLSessionConfiguration.background(withIdentifier: "com.example.app.background")
+        let sessionMaanger = Alamofire.SessionManager(configuration: configuration)
+        sessionMaanger.request("https://httpbin.org/get")
+    }
+    
+    public func creatingASessionManagerWithEphemeralConfiguration() {
+        let configuration = URLSessionConfiguration.ephemeral
+        let sessionManager = Alamofire.SessionManager(configuration: configuration)
+        sessionManager.request("https://httpbin.org/get")
+    }
+    
+    public func modifyingTheSessionConfiguration() {
+        var defaultHeaders = Alamofire.SessionManager.defaultHTTPHeaders
+        defaultHeaders["DNT"] = "1 (Do Not Track Enabled)"
+        
+        let configuration = URLSessionConfiguration.default
+        configuration.httpAdditionalHeaders = defaultHeaders
+        
+        let sessionManager = Alamofire.SessionManager(configuration: configuration)
+        sessionManager.request("https://httpbin.org/get")
+    }
+    
 }
