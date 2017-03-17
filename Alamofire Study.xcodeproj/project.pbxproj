@@ -30,6 +30,8 @@
 		4B9D36951E7B909900DDBBDB /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36941E7B909900DDBBDB /* RequestAdapter.swift */; };
 		4B9D36971E7BA1D500DDBBDB /* RequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36961E7BA1D500DDBBDB /* RequestRetrier.swift */; };
 		4B9D369A1E7BAF1800DDBBDB /* ResponseMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */; };
+		4B9D369D1E7BB4E100DDBBDB /* WithGithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D369C1E7BB4E100DDBBDB /* WithGithubAPI.swift */; };
+		4B9D369E1E7BB78D00DDBBDB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D243E1E78D9B00082F577 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 		4B9D36941E7B909900DDBBDB /* RequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAdapter.swift; sourceTree = "<group>"; };
 		4B9D36961E7BA1D500DDBBDB /* RequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestRetrier.swift; sourceTree = "<group>"; };
 		4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMapping.swift; sourceTree = "<group>"; };
+		4B9D369C1E7BB4E100DDBBDB /* WithGithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithGithubAPI.swift; sourceTree = "<group>"; };
 		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9D369E1E7BB78D00DDBBDB /* SwiftyJSON.framework in Frameworks */,
 				4B9D243D1E78D7A20082F577 /* Alamofire.framework in Frameworks */,
 				143865D1B1F4FB36F0CCD951 /* Pods_Alamofire_Study.framework in Frameworks */,
 			);
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				4B9D24441E791BBA0082F577 /* Basic */,
+				4B9D369B1E7BB47D00DDBBDB /* SwifyJSON */,
 				4B9D24471E7A3FFE0082F577 /* ViewController.swift */,
 				4B9D24231E78D58A0082F577 /* Assets.xcassets */,
 				4B9D24201E78D58A0082F577 /* Main.storyboard */,
@@ -185,6 +190,14 @@
 				4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */,
 			);
 			path = "Custom Response Serialization";
+			sourceTree = "<group>";
+		};
+		4B9D369B1E7BB47D00DDBBDB /* SwifyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D369C1E7BB4E100DDBBDB /* WithGithubAPI.swift */,
+			);
+			path = SwifyJSON;
 			sourceTree = "<group>";
 		};
 		54D2BC54270833F318300CBC /* Frameworks */ = {
@@ -371,6 +384,7 @@
 				4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */,
 				4B9D36971E7BA1D500DDBBDB /* RequestRetrier.swift in Sources */,
 				4B9D24521E7A41740082F577 /* Authentication.swift in Sources */,
+				4B9D369D1E7BB4E100DDBBDB /* WithGithubAPI.swift in Sources */,
 				4B9D24501E7A411E0082F577 /* HTTPHeader.swift in Sources */,
 				4B9D244C1E7A40C70082F577 /* HTTPMethod.swift in Sources */,
 				4B9D244E1E7A40E70082F577 /* Encoding.swift in Sources */,
