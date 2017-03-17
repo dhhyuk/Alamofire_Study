@@ -39,7 +39,7 @@ class Authentication {
     public func authorizationHeader() {
         var headers: HTTPHeaders = [:]
         
-        if let authorizationHeader = Request.authorizationHeader(user: user, password: password) {
+        if let authorizationHeader = Alamofire.Request.authorizationHeader(user: user, password: password) {
             headers[authorizationHeader.key] = authorizationHeader.value
         }
         

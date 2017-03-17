@@ -9,8 +9,14 @@
 import Foundation
 import Alamofire
 
+/**
+ Request시 사용 될 수 있는 여러가지 방법들
+ */
 class Request {
     
+    /**
+     * Request시 사용 되는 URLConvertible에 대한 여러가지 방법들
+     */
     public func urlConvertible() {
         let urlString = "https://httpbin.org/post"
         _ = Alamofire.request(urlString, method: .post)
@@ -22,11 +28,19 @@ class Request {
         _ = Alamofire.request(urlComponents, method: .post)
     }
     
+    /**
+     * class나 struct에 URLConvertible를 상속시켜서 asURL함수를 구현해
+     * Alamofire.request()에 바로 넣어서 사용
+     */
     public func typeSafeRouting() {
         let user = User(username: "mattt")
         _ = Alamofire.request(user)
     }
-    
+
+    /**
+     * URLRequest에 설정을 다 한 뒤,
+     * URLRequest만 넣을 수도 있음
+     */
     public func urlRequestConvertible() {
         let url = URL(string: "https://httpbin.org/post")!
         var urlRequest = URLRequest(url: url)
@@ -45,6 +59,10 @@ class Request {
         _ = Alamofire.request(urlRequest)
     }
     
+    /**
+     * API 형태에 Request할 때 사용하면 편할 방법
+     * request형태와 데이터타입에 따라서 API 호출을 다르게 할 수 있음
+     */
     //Important
     public func apiParameterAbstraction() {
         enum Router: URLRequestConvertible {

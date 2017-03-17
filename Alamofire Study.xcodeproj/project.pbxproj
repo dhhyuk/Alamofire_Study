@@ -26,6 +26,10 @@
 		4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */; };
 		4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */; };
 		4B9D368F1E7B7F4600DDBBDB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D368E1E7B7F4600DDBBDB /* Request.swift */; };
+		4B9D36921E7B8B1900DDBBDB /* CRUD_Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36911E7B8B1900DDBBDB /* CRUD_Authorization.swift */; };
+		4B9D36951E7B909900DDBBDB /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36941E7B909900DDBBDB /* RequestAdapter.swift */; };
+		4B9D36971E7BA1D500DDBBDB /* RequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36961E7BA1D500DDBBDB /* RequestRetrier.swift */; };
+		4B9D369A1E7BAF1800DDBBDB /* ResponseMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +68,11 @@
 		4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticalMetrics.swift; sourceTree = "<group>"; };
 		4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cURLCommandOutput.swift; sourceTree = "<group>"; };
 		4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		4B9D368E1E7B7F4600DDBBDB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4B9D368E1E7B7F4600DDBBDB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../Request.swift; sourceTree = "<group>"; };
+		4B9D36911E7B8B1900DDBBDB /* CRUD_Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRUD_Authorization.swift; sourceTree = "<group>"; };
+		4B9D36941E7B909900DDBBDB /* RequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAdapter.swift; sourceTree = "<group>"; };
+		4B9D36961E7BA1D500DDBBDB /* RequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestRetrier.swift; sourceTree = "<group>"; };
+		4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMapping.swift; sourceTree = "<group>"; };
 		DDD6F22EACD9BE2D410B5177 /* Pods-Alamofire Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A9DF92F96825325A632F4C /* Pods-Alamofire Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire Study/Pods-Alamofire Study.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,9 +153,38 @@
 				4B9D24571E7A4FEB0082F577 /* StatisticalMetrics.swift */,
 				4B9D24591E7A52D50082F577 /* cURLCommandOutput.swift */,
 				4B9D245B1E7A5B4D0082F577 /* SessionManager.swift */,
-				4B9D368E1E7B7F4600DDBBDB /* Request.swift */,
+				4B9D36901E7B8B0100DDBBDB /* Router Requests */,
+				4B9D36931E7B907700DDBBDB /* Adapting and Retrying Requests */,
+				4B9D36981E7BAEFE00DDBBDB /* Custom Response Serialization */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		4B9D36901E7B8B0100DDBBDB /* Router Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D368E1E7B7F4600DDBBDB /* Request.swift */,
+				4B9D36911E7B8B1900DDBBDB /* CRUD_Authorization.swift */,
+			);
+			path = "Router Requests";
+			sourceTree = "<group>";
+		};
+		4B9D36931E7B907700DDBBDB /* Adapting and Retrying Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D36941E7B909900DDBBDB /* RequestAdapter.swift */,
+				4B9D36961E7BA1D500DDBBDB /* RequestRetrier.swift */,
+			);
+			name = "Adapting and Retrying Requests";
+			path = "Router Requests/Adapting and Retrying Requests";
+			sourceTree = "<group>";
+		};
+		4B9D36981E7BAEFE00DDBBDB /* Custom Response Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				4B9D36991E7BAF1800DDBBDB /* ResponseMapping.swift */,
+			);
+			path = "Custom Response Serialization";
 			sourceTree = "<group>";
 		};
 		54D2BC54270833F318300CBC /* Frameworks */ = {
@@ -332,12 +369,16 @@
 				4B9D24581E7A4FEB0082F577 /* StatisticalMetrics.swift in Sources */,
 				4B9D245C1E7A5B4D0082F577 /* SessionManager.swift in Sources */,
 				4B9D245A1E7A52D50082F577 /* cURLCommandOutput.swift in Sources */,
+				4B9D36971E7BA1D500DDBBDB /* RequestRetrier.swift in Sources */,
 				4B9D24521E7A41740082F577 /* Authentication.swift in Sources */,
 				4B9D24501E7A411E0082F577 /* HTTPHeader.swift in Sources */,
 				4B9D244C1E7A40C70082F577 /* HTTPMethod.swift in Sources */,
 				4B9D244E1E7A40E70082F577 /* Encoding.swift in Sources */,
 				4B9D244A1E7A402C0082F577 /* RequestResponse.swift in Sources */,
 				4B9D24541E7A428A0082F577 /* FileDownload.swift in Sources */,
+				4B9D36921E7B8B1900DDBBDB /* CRUD_Authorization.swift in Sources */,
+				4B9D369A1E7BAF1800DDBBDB /* ResponseMapping.swift in Sources */,
+				4B9D36951E7B909900DDBBDB /* RequestAdapter.swift in Sources */,
 				4B9D24481E7A3FFE0082F577 /* ViewController.swift in Sources */,
 				4B9D241D1E78D58A0082F577 /* AppDelegate.swift in Sources */,
 			);
