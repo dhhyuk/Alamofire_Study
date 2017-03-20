@@ -5,3 +5,4 @@ Alamofire Github의 내용들을 따라 가며 공부하기 위한 프로젝트�
 
 ## 공부 참조한 곳
 - [Alamofire GitHub](https://github.com/Alamofire/Alamofire "Alamofire Github")
+- [Swifty JSON](https://github.com/SwiftyJSON/SwiftyJSON "Swifty JSON")
